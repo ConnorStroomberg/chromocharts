@@ -43,9 +43,6 @@
           this.band = content.split(',')[0]
           this.start = content.split(',')[1]
           this.stop = content.split(',')[2]
-          if (this.selected !== content) {
-            this.selected = 'Selected:<br/>' + content
-          }
         }
       }
     },
